@@ -1,0 +1,7 @@
+Primera linea de mi nuevo archivo
+Segunda linea
+Tercera linea
+Cuarta lineaQuinta linea
+Sexta linea
+Desde el context manager 
+ Desde el context manager

@@ -1,7 +1,7 @@
 # Abrir el archivo en modo lectura
 
 try:
-    file = open("texto_1.txt", "r")
+    file = open("texto_2.txt", "r")
 except FileNotFoundError:
     print("el archivo no existe")
     exit(1)

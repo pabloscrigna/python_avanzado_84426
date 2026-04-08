@@ -4,11 +4,11 @@ escribe al final. si el archivo no existe, lo crea
 """
 
 # abrir el archivo modo agregar (append)
-file = open("../archivos_demo/archivo_escritura.txt", "a")
+file = open("archivo_escritura.txt", "a")
 
 # escribimos dos lineas
-file.write("\nTercera linea\n")
-file.write("Cuarta linea")
+file.write("Quinta linea\n")
+file.write("Sexta linea")
 
 # cerramos el archivo
 file.close()

@@ -1,0 +1,47 @@
+Metodos HTTP
+
+GET: Obtener informacion del server
+POST: Enviar informacion al server
+PUT: Enviar informacion al server
+Delete: Envia 
+
+
+Utilizacion de cada Metodo
+
+
+GET: Se lo utiliza para leer la informacion de un recurso 
+
+por ejemplo
+
+GET http://eduit/alumnos    ----> lee todos los alumnos
+GET http://eduit/alumnos/1  ----> lee el alumno con id=1
+
+No hay body
+
+Response: status code
+
+POST: Se lo utiliza para crear informacion de un recurso
+
+POST http://eduit/alumnos
+Body:
+    nombre
+    apellido
+    curso
+
+PUT: se lo utilza para actualizar informacion de un recurso
+
+PUT http://eduit/alumnos/1
+Body:
+    nombre
+    apellido
+    curso
+
+Delete: se lo utiliza para eliminar un recurso
+
+DELETE http://eduit/alumnos/1
+
+No hay body 
+
+
+
+Status Code reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status

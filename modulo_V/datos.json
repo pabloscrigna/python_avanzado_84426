@@ -1,0 +1,12 @@
+{
+    "nombre": "Pablo",
+    "edad": 30,
+    "peso": 56.8,
+    "activo": true,
+    "notas": [
+        10,
+        45,
+        67
+    ],
+    "direccion": null
+}
